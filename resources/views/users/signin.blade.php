@@ -23,6 +23,19 @@
                     <div class="mt-8">
                         <div class="mt-6">
                             <form action="#" method="POST" class="space-y-6">
+                                @csrf
+                                <input type="hidden" name="usid" value="{{$user->id}}">
+
+                                <!-- バリデーションエラーの表示 -->
+                                @if($errors->any())
+                                    <ul>
+                                        @foreach($errors->all() as $error)
+                                        <li style="color:red">{{$error}}</li>
+                                        @endforeach
+                                    </ul>
+                                @endif
+
+
                                 <div>
                                     <label for="email" class="block text-sm font-medium text-neutral-600"> Email address </label>
                                     <div class="mt-1">

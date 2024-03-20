@@ -1,11 +1,16 @@
 ■Sass監視
 　npm run dev
 
-■TailwindCSSの導入
-参考記事：https://tailwindcss.com/docs/guides/laravel
 
-■TailwindCSS　デザインコンポーネント
-https://wickedblocks.dev/
-
-　※Alpineの導入も必要
+■TailwindCSS
+・導入　参考記事：https://tailwindcss.com/docs/guides/laravel
+・クラス検索　　：https://tailwindcss.com/docs/padding
+・コンポーネント：https://wickedblocks.dev/
+　　※Alpineの導入も必要
 　　　参考サイト⇒https://www.linkedin.com/pulse/match-made-heaven-using-vite-alpinejs-tailwind-css-halil-kutluturk
+
+
+■認証機能：Laravel Breeze使用　　⇒コマンド１つで認証機能実装できる
+Laravel認証機能概要：https://readouble.com/laravel/11.x/ja/authentication.html
+Breeze公式：https://readouble.com/laravel/11.x/ja/starter-kits.html#laravel-breeze
+　⇒php artisan breeze:install時の選択肢はデフォルトを選択した

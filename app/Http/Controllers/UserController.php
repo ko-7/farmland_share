@@ -8,8 +8,32 @@ use App\Models\User;
 
 class UserController extends Controller
 {
-    public function signin(){
+    public function signupGet(){
+        return view('users.signup');
+    }
+
+    public function signupPost(Request $request){
+        $validator = $request->validate([
+            'name'      => 'required',
+            'email'     => 'required',
+            'password'  => 'required',
+        ]);
+
+        $user = new User();
+        $user->name     = $request->name;
+        $user->email    = $request->email;
+        $user->password = $request->password;
+        $user->save();
+
+        return redirect('/users');
+    }
+
+    public function signinGet(){
         return view('users.signin');
+    }
+
+    public function signinPost(){
+
     }
 
     public function index(){
@@ -22,15 +46,15 @@ class UserController extends Controller
         return view('users.show', ["user" => $user]);
     }
 
-    public function add(){
+    public function addGet(){
         return view('users.add');
     }
 
-    public function create(Request $request){
+    public function addPost(Request $request){
         $validator = $request->validate([
             'name'      => 'required',
             'email'     => 'required',
-            'passowrd'  => 'required',
+            'password'  => 'required',
         ]);
 
         $user = new User();
@@ -42,16 +66,16 @@ class UserController extends Controller
         return redirect('/users');
     }
 
-    public function edit($usid){
+    public function editGet($usid){
         $user = User::find($usid);
         return view('users.edit', ["user" => $user]);
     }
 
-    public function update(Request $request){
+    public function editPost(Request $request){
         $validator = $request->validate([
             'name'      => 'required',
             'email'     => 'required',
-            'passowrd'  => 'required',
+            'password'  => 'required',
         ]);
 
         User::find($request->usid)->update([
@@ -63,8 +87,12 @@ class UserController extends Controller
     }
 
     public function delete(Request $request){
-        User::find($request->id)->delete();
-        return redirect('/users');
+        try{
+            User::find($request->usid)->delete();
+            return redirect('/users');
+        }catch(e){
+            echo e;
+        }
     }
 }
 

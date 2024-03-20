@@ -4,7 +4,7 @@
   <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="text-white xl:col-span-1">
-        <a class="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8" href="/groups/footer/"> wickedblocks </a>
+        <a class="text-lg font-bold tracking-tighter text-blue-600 transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8" href="/groups/footer/"> farmland_share </a>
         <p class="w-1/2 mt-2 text-sm text-gray-500">Wicked templates for wicked dev's</p>
       </div>
       <div class="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">

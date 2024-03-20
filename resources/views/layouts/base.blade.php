@@ -8,10 +8,10 @@
         <title>Laravel | @yield('page_title')</title>
 
         @vite([
-            'resources/css/app.css', 'resources/js/app.js', 'resources/scss/app.scss',
+            'resources/css/app.css', 'resources/js/app.js',
         ])
 
-        <!-- @vite([
+        <!-- vite([
             'resources/css/app.css', 'resources/js/app.js', 'resources/scss/app.scss',
             'resources/css/layouts.css', 'resources/js/layouts.js', 'resources/scss/layouts.scss',
             'resources/css/users.css', 'resources/js/users.js', 'resources/scss/users.scss',
