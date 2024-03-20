@@ -1,0 +1,11 @@
+■Sass監視
+　npm run dev
+
+■TailwindCSSの導入
+参考記事：https://tailwindcss.com/docs/guides/laravel
+
+■TailwindCSS　デザインコンポーネント
+https://wickedblocks.dev/
+
+　※Alpineの導入も必要
+　　　参考サイト⇒https://www.linkedin.com/pulse/match-made-heaven-using-vite-alpinejs-tailwind-css-halil-kutluturk

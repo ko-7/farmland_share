@@ -1,0 +1,22 @@
+@import "variables";
+
+
+header{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $themeColor;
+}
+
+
+footer{
+    padding: 5px 0;
+    // position: fixed;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

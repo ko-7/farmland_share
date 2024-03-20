@@ -1,0 +1,94 @@
+// @import "variables";
+
+// // index
+// .user-table{
+//     border-collapse: collapse;
+//     border-spacing: 0;
+//     width: 100%;
+//     tr{
+//         border-bottom: solid 1px #eee;
+        
+//     }
+//     th, td{
+//         text-align: center;
+//         width: 25%;
+//         padding: 15px 0;
+//     }
+//     .tr-item{
+//         height: 0;
+//         cursor: pointer;
+//         &:hover{
+//             background-color: rgba($themeColor, 0.1);
+//         }
+//         .tr-item-link{
+//         }
+//     }
+// }
+
+// // show
+// .show-wrapper{
+//     padding: 30px;
+//     display: flex;
+//     justify-content: center;
+//     .show-content{
+//         .show-action-buttons{
+//             margin-top: 10px;
+//             display: flex;
+//             justify-content: space-around;
+//         }
+//     }
+// }
+
+// // add, edit
+// .user-form{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     .form-item{
+//         margin-bottom: 10px;
+//         display: flex;
+//         flex-direction: column;
+//         width: 160px;
+//     }
+//     .form-button{
+//     }
+// }
+
+// // signin
+// .signin-form-wrapper{
+//     margin: 10px auto;
+//     padding: 20px 10px;
+//     width: 210px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border: 1px solid #aaa;
+//     .signin-form{
+//         margin: 0 auto;
+//         .title{
+//             text-align: center;
+//             margin-bottom: 30px;
+//             border-bottom: 1px solid #aaa;
+//         }
+//         .form-items{
+//             .form-item{
+//                 margin-bottom: 10px;
+//                 input{
+//                     padding: 3px;
+//                 }
+//             }
+//         }
+//         .form-buttons{
+//             display: flex;
+//             justify-content: center;
+//             .submit-button{
+//                 padding: 5px;
+//                 background-color: rgba($themeColor, 0.7);
+//                 width: 100%;
+//                 border: none;
+//                 color: white;
+//             }
+//         }
+//     }
+// }
