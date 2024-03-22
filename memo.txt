@@ -1,3 +1,14 @@
+■サービス概要
+目的：「畑を借りたい人⇔貸したい人」「野菜を売る場所を借りたい人⇔貸したい人」のマッチングサービス
+
+機能
+・会員登録
+・投稿掲示板：借りたい人、貸したい人それぞれの投稿
+・メッセージ：借りたい人、貸したい人間のメッセージ
+・支払い：月額賃貸料金を毎月自動でクレジットカード支払いできる（１月分前払い）
+
+
+
 ■Sass監視
 　npm run dev
 
@@ -14,3 +25,4 @@
 Laravel認証機能概要：https://readouble.com/laravel/11.x/ja/authentication.html
 Breeze公式：https://readouble.com/laravel/11.x/ja/starter-kits.html#laravel-breeze
 　⇒php artisan breeze:install時の選択肢はデフォルトを選択した
+
